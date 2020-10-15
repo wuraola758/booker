@@ -1,0 +1,129 @@
+body {
+    line-height: 30px;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+html {
+    scroll-behavior: smooth;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: goldenrod;
+    padding-bottom: 20px;
+}
+img {
+    width: 400px;
+}
+.container {
+    padding: 0 8%;
+}
+/* navbar styling */
+#navbox {
+    background-color: #000;
+}
+.navbar {
+    padding: 0;
+}
+.navbar-brand img {
+    width: 150px;
+    height: 100px;
+}
+.navbar a {
+    color: white;
+}
+.navbar a:hover{
+    color: gold;
+}
+.navbar-toggler-icon {
+    color: white;
+}
+/* banner section */
+.bannerImg {
+    background: url('../images/supperwoman.png') no-repeat;
+    background-size: cover;
+    /* background-color: purple; */
+    width: 100%;
+    height: 600px;
+    margin-bottom: 100px;
+}
+.bannerText h3 {
+    font-size: 2.5rem;
+    line-height: 50px;
+    padding-top: 200px;
+}
+/* justification */
+.justify {
+    padding: 50px 0;
+}
+.justifybox {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.activity {
+    padding-top: 200px;
+}
+/* second box */
+.secondbox {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+/* third boxes section */
+
+.thirdbox {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* vision and mission */
+
+.vissionbox {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.missionbox {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+/* footer section styling */
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 80px;
+}
+.footer-text p {
+    padding-top: 20px;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+/* contact section */
+#contact {
+    padding-bottom: 50px;
+}
+.btn-gold {
+    border: black 1px solid;
+}
+.btn-gold:hover{
+    color: white;
+    background: goldenrod;
+    border: none;
+}
+
+
+@media(max-width: 527px){
+    img {
+        width: 300px;
+        margin: auto;
+    }
+    body {
+        font-size: 0.8rem;
+    }
+    .bannerText h3 {
+        font-size: 1.2rem;
+    }
+}
